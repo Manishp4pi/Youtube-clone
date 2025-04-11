@@ -25,3 +25,14 @@
 .video-info {
   margin-left: 50px;
 }
+.preview {
+  position: relative;
+}
+.timer {
+  position: absolute;
+  right: 10px;
+  top: 140px;
+  padding: 3px;
+  color: white;
+  background: #000;
+}
