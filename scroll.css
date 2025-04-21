@@ -1,0 +1,20 @@
+.scroll {
+  white-space: nowrap;
+  background-color: rgb(195, 179, 209);
+  padding: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 20px;
+  margin-left: 250px;
+  cursor: pointer;
+}
+.all {
+  display: inline-block;
+  height: 30px;
+  width: 70px;
+  padding: ;
+  border-radius: 10px;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+}

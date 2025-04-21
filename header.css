@@ -10,7 +10,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
 
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -24,7 +24,7 @@ header {
 .left {
   display: flex;
   align-items: center;
-
+  border: ;
   width: 170px;
 }
 .hamburger-menu {
@@ -131,6 +131,8 @@ header {
 }
 
 .right {
+  border: solid;
+  margin-right: 10px;
   width: 300px;
   display: flex;
   justify-content: space-between;
@@ -153,9 +155,11 @@ header {
   border-radius: 50%;
 }
 .profile {
-  height: 30px;
-  width: 30px;
+  border: solid;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
+  margin-bottom: 5px;
 }
 .create {
   padding: 10px;

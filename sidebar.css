@@ -1,37 +1,37 @@
 .sidebar {
   position: fixed;
-  left: 0;
-  bottom: 0;
   top: 50px;
-  background-color: white;
-  width: 200px;
-  z-index: 200;
-  padding-top: 5px;
-}
 
-.sidebar-link {
-  height: 74px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  margin-bottom: 20px;
+  height: 100%;
+  width: 230px;
+  line-height: 70px;
+  overflow-y: auto;
 }
-
-.sidebar-link:hover {
-  border-radius: 8px;
-  background-color: rgb(235, 235, 235);
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 5px 0;
+  color: black;
 }
-
-.sidebar-link img {
-  height: 24px;
-  margin-bottom: 4px;
+ul li a i {
+  margin-left: 10px;
+  width: 40px;
 }
-
-.sidebar-link div {
-  font-family: Roboto, Arial;
-  font-size: 10px;
+.sidebar ul li {
+  line-height: 40px;
+  padding-left: 0px;
+  word-spacing: 10px;
 }
-p {
+.first,
+.second {
+  border-bottom: 0.5px solid;
+}
+ul li:hover {
+  background-color: rgb(228, 218, 218);
+}
+.home {
   margin-left: 10px;
 }
